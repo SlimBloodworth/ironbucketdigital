@@ -1,9 +1,13 @@
 :root {
     /***color palette***/
-    --forest-green: #1f3b2c;
+    /***primary colors***/
+    --cumberland-green: #1f3b2c;
     --earth-brown: #6a4d39;
     --slate-grey: #3d3f45;
     --off-white: #f4f1ed;
+    /***secondary colors***/
+    --pine-blue: #1e4258; /**buttons, cta**/
+    --clay-tan: #c8a788; /**warm accents**/
     /*fonts*/
     --ff-headers: 'Work Sans', sans-serif;
     --ff-body: 'Inter', sans-serif;
@@ -13,6 +17,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*design system styles*/
+.ds-test-ff-color {
+    color: var(--off-white);
+}
+.design-system-background {
+    background-color: var(--pine-blue);
+}
+.anton-test {
+    font-family: 'Anton', sans-serif;    
+}
+.work-sans-test {
+    font-family: 'Work Sans', sans-serif;    
+}
+.inter-test {
+    font-family: 'Inter', sans-serif;    
 }
 
 

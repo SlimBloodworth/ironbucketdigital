@@ -19,6 +19,12 @@
     box-sizing: border-box;
 }
 
+.logo {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+}
+
 /*design system styles*/
 .ds-test-ff-color {
     color: var(--off-white);

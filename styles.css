@@ -49,6 +49,11 @@
     margin-left: 20px;
     margin-top: 10px;
 }
+
+.review-items_checkmark {
+    width: 15px;
+    height: 15px;
+}
 /*End Visibility Check Styles*/
 
 

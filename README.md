@@ -33,5 +33,6 @@
 ### Useful Resources
 
 ## Auhthor
+- Website - [Michelle Renee](https://michellerenee.dev)
 
 ## Acknowledgments

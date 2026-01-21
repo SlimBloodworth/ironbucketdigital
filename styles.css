@@ -44,9 +44,19 @@ header {
     color: var(--off-white);
     padding: 1.25rem 0;
 }
-.logo {
-    width: 50px;
-    height: 20px;
+
+.hero-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+}
+.logo img {
+    max-height: 40px;
+    width: auto;
+    display: block;
+    /*width: 50px;
+    height: 20px;*/
     border: 1px solid black;
 }
 
@@ -56,11 +66,11 @@ header {
     align-items: center;
 }*/
 
-.primary-nav ul {
+/*.primary-nav ul {
     list-style: none;
     display: flex;
     gap: 2rem;
-}
+}*/
 
 .primary-nav a {
     color: var(--off-white);
@@ -72,11 +82,23 @@ header {
     color: var(--clay-tan);
 }
 
+.nav__list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.header-contact{
+    display: flex;
+    gap: 1rem;
+}
+
 .icon svg {
     width: 20px;
     height: 20px;
     stroke: currentColor;
     fill: none;
+    cursor: pointer;
 }
 
 /* CTA Buttons*/

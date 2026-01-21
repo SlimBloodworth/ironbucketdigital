@@ -51,6 +51,13 @@ header {
     justify-content: space-between;
     padding: 1.25rem 0;
 }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem; /* keeps content off the edges */   
+}
+
 .logo img {
     max-height: 40px;
     width: auto;
